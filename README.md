@@ -5,7 +5,7 @@
 * full name - string
 * email - string
 * password - string
-* cart - string
+* cart - array
 * isadmin - boolean
 * order - array
 * contact - number
@@ -19,3 +19,13 @@
 * bgColor - string
 * panelColor - string
 * textColor - string
+
+
+## owenermodel
+
+* fullname - string
+* email - string
+* password - string
+* products - ararry
+* picture - string
+* gstin - string
