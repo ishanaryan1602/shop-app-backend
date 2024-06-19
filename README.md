@@ -1,20 +1,21 @@
 # shop-app-backend
 
-# usermodel
-full name - string 
-eamil - string
-password - string
-cart - string
-isadmin - boolean
-order - array
-contact - number
-picture - db(memory storage)
+## usermodel
 
-# productmodel
+* full name - string
+* email - string
+* password - string
+* cart - string
+* isadmin - boolean
+* order - array
+* contact - number
+* picture - db(memory storage)
 
-name - string
-price - number
-discount - number
-bgColor - string
-panelColor - string
-textColor - string
+## productmodel
+
+* name - string
+* price - number
+* discount - number
+* bgColor - string
+* panelColor - string
+* textColor - string
