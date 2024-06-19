@@ -14,22 +14,17 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  cart:
-    {
-      type: Array,
-      default : [],
-    },
-  isAdmin: {
-    type: Boolean, 
-    default: false,
+  cart: {
+    type: Array,
+    default: [],
   },
   orders: {
     type: Array,
-    default : [],
+    default: [],
   },
   contact: {
     type: Number,
-    required: true,
+    // required: true,
   },
   picture: {
     type: String,

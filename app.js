@@ -12,9 +12,15 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
 app.set("view engine", "ejs");
+app.set("views", path.resolve("./views"));
 
 app.use("/owners", ownersRouter);
 app.use("/users", usersRouter);
 app.use("/products", productsRouter);
 
-app.listen(3000, () => console.log("connected to port successfully"));
+app.get("/", (req, res) => {
+  let errorMessage = "";
+  res.render("index", { error: errorMessage });
+});
+
+app.listen(3000, () => console.log("connected to port:3000 successfully"));

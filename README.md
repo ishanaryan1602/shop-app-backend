@@ -29,3 +29,12 @@
 * products - ararry
 * picture - string
 * gstin - string
+
+## routes skeleton
+
+* / -> signup
+* /shop -> shop
+* /users/cart -> cart
+* /admin -> admin
+* /owner/products -> show all products
+* /owner/admin -> show admin pannel to create products
